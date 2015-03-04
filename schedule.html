@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Radio Programming Schedule</title>
+    <link href="schedStyle.css" type="text/css" rel="stylesheet" />
+</head>
+<body onload="reload()">
+
+<div class="nav">
+    <button type="button" id="prevButton" onclick="decrementDay()">Previous</button>
+    <h3 id="dayH">No Data</h3>
+    <button type="button" id="nextButton" onclick="incrementDay()"><img src="http://www.templefma.org/WebartSpring2014/nextbutton.jpg" height="30" width="30" /></button>
+</div>
+
+<div class="shows">
+    <table>
+        <tbody>
+        <tr>
+            <td rowspan="2">8:00</td>
+            <td id="am800"></td>
+        </tr>
+        <tr>
+            <td id="am830"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">9:00</td>
+            <td id="am900"></td>
+        </tr>
+        <tr>
+            <td id="am930"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">10:00</td>
+            <td id="am1000"></td>
+        </tr>
+        <tr>
+            <td id="am1030"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">11:00</td>
+            <td id="am1100"></td>
+        </tr>
+        <tr>
+            <td id="am1130"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">12:00</td>
+            <td id="pm1200"></td>
+        </tr>
+        <tr>
+            <td id="pm1230"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">1:00</td>
+            <td id="pm100"></td>
+        </tr>
+        <tr>
+            <td id="pm130"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">2:00</td>
+            <td id="pm200"></td>
+        </tr>
+        <tr>
+            <td id="pm230"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">3:00</td>
+            <td id="pm300"></td>
+        </tr>
+        <tr>
+            <td id="pm330"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">4:00</td>
+            <td id="pm400"></td>
+        </tr>
+        <tr>
+            <td id="pm430"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">5:00</td>
+            <td id="pm500"></td>
+        </tr>
+        <tr>
+            <td id="pm530"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">6:00</td>
+            <td id="pm600"></td>
+        </tr>
+        <tr>
+            <td id="pm630"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">7:00</td>
+            <td id="pm700"></td>
+        </tr>
+        <tr>
+            <td id="pm730">
+        </tr>
+        <tr>
+            <td rowspan="2">8:00</td>
+            <td id="pm800"></td>
+        </tr>
+        <tr>
+            <td id="pm830"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">9:00</td>
+            <td id="pm900"></td>
+        </tr>
+        <tr>
+            <td id="pm930"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="schedScript.js"></script>
+
+</body>
+</html>

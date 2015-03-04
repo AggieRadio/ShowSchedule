@@ -1,0 +1,23 @@
+td {
+    background-color: #D0D0D0;
+}
+#prevButton {
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+#dayH{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+#nextButton{
+    position: absolute;
+    top: auto;
+    left: 200px;
+}
+div.shows{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
