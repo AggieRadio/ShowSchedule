@@ -3,21 +3,40 @@ td {
 }
 #prevButton {
     position: absolute;
-    top: auto;
-    left: auto;
+    top: 25px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
 }
 #dayH{
     position: absolute;
-    top: 0;
-    left: 100px;
+    top: 25px;
+    left: 300px;
+    color: #FFF;
 }
 #nextButton{
     position: absolute;
-    top: auto;
-    left: 200px;
+    top: 25px;
+    left: 850px;
+    width: 50px;
+    height: 50px;
 }
 div.shows{
     position: absolute;
-    top: 50px;
-    left: 40px;
+    top: 110px;
+}
+.time{
+    width: 150px;
+    height: 100px;
+}
+.showData{
+    width: 840px;
+}
+table{
+    empty-cells: hide;
+}
+.nav{
+    background-color: #120650;
+    width: 940px;
+    height: 100px;
 }

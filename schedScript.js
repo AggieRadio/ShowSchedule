@@ -68,8 +68,10 @@ function reload(){
             title.innerHTML = "Monday";
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/\" ><img src=\"Breakfast.jpg\" alt=\"Aggie Morning Word\" width=\"150\" height=\"50\"/></a>";
+            am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
             am900.setAttribute("rowspan", "2");
             am900.innerHTML = "Monday Morning Musings";
+            am900.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/monday-musings/'");
             am1000.setAttribute("rowspan", "6");
             am1000.innerHTML = "";
             pm100.setAttribute("rowspan", "2");
@@ -90,6 +92,7 @@ function reload(){
             document.getElementById("dayH").innerHTML = "Tuesday";
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/\" ><img src=\"Breakfast.jpg\" alt=\"Aggie Morning Word\" width=\"150\" height=\"50\"/></a>";
+            am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
             am900.setAttribute("rowspan", "6");
             am900.innerHTML = "";
             pm1200.setAttribute("rowspan", "2");
@@ -101,7 +104,7 @@ function reload(){
             pm300.setAttribute("rowspan", "2");
             pm300.innerHTML = "";
             pm400.setAttribute("rowspan", "4");
-            pm400.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/the-non-traditional/\"><img src=\"http://www.usu.edu/radio/wp-content/uploads/2014/10/dummy-600x300-Eye.jpg\" height=\"150\" width=\"150\" alt=\"The Non-Traditional Show\" title=\"The Non-Traditional Show\" /></a>"
+            pm400.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/the-non-traditional/\"><img src=\"http://www.usu.edu/radio/wp-content/uploads/2014/10/dummy-600x300-Eye.jpg\" height=\"150\" width=\"150\" alt=\"The Non-Traditional Show\" title=\"The Non-Traditional Show\" /></a>";
             pm600.setAttribute("rowspan", "2");
             pm600.innerHTML = "Adventures of M&L";
             pm700.setAttribute("rowspam", "2");
@@ -113,6 +116,7 @@ function reload(){
             document.getElementById("dayH").innerHTML = "Wednesday";
             am800.setAttribute("rowspan", "6");
             am800.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/\" ><img src=\"Breakfast.jpg\" alt=\"Aggie Morning Word\" width=\"150\" height=\"50\"/></a>";
+            am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
             am1100.setAttribute("rowspan", "4");
             am1100.innerHTML = "Live From Common Hour";
             pm100.setAttribute("rowspan", "2");
@@ -133,6 +137,7 @@ function reload(){
             document.getElementById("dayH").innerHTML = "Thursday";
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "<a href=\"http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/\" ><img src=\"Breakfast.jpg\" alt=\"Aggie Morning Word\" width=\"150\" height=\"50\"/></a>";
+            am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
             am900.setAttribute("rowspan", "4");
             am1100.setAttribute("rowspan", "2");
             am1100.innerHTML = "Kaden D. & Dylan M.";
@@ -153,6 +158,7 @@ function reload(){
             document.getElementById("dayH").innerHTML = "Friday";
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "AMW or Aggventure, Idfk";
+            am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
             am900.innerHTML = "Transient Cafe";
             am930.innerHTML = "Life in the Rainbow";
             am1000.setAttribute("rowspan", "2");
