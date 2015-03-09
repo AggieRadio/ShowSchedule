@@ -1,42 +1,76 @@
 td {
     background-color: #D0D0D0;
+
 }
 #prevButton {
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 50px;
     width: 50px;
     height: 50px;
 }
 #dayH{
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 300px;
     color: #FFF;
 }
 #nextButton{
     position: absolute;
-    top: 25px;
+    top: 5px;
     left: 850px;
     width: 50px;
     height: 50px;
 }
 div.shows{
     position: absolute;
-    top: 110px;
+    top: 50px;
+    height: 450px;
+    overflow: scroll;
 }
 .time{
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 50px;
 }
-.showData{
-    width: 840px;
+.hasData{
+    width: 612px;
+}
+td.showData:hover{
+    background-color: blue;
 }
 table{
     empty-cells: hide;
+    height: 400px;
 }
 .nav{
     background-color: #120650;
     width: 940px;
-    height: 100px;
+    height: 40px;
 }
+div.footer{
+    background-color: #120650;
+    position: absolute;
+    top: 500px;
+    width: 940px;
+    height: 40px;
+}
+#footerH{
+    color: #FFFFFF;
+    position: absolute;
+    left: 300px;
+}
+#liveA:hover{
+    color: aliceblue;
+}
+#liveA:visited{
+    color: #FFFFFF;
+}
+div.listenLive{
+    position: absolute;
+    top: 53px;
+    left: 730px;
+    width: 215px;
+    height: 442px;
+    background-color: #120650;
+}
+

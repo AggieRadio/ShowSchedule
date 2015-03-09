@@ -8,9 +8,9 @@
 <body onload="reload()">
 
 <div class="nav">
-    <button type="button" id="prevButton" onclick="decrementDay()">Previous</button>
+    <img src="appbar.arrow.left.png" id="prevButton" onclick="decrementDay()" height="30" width="30" />
     <h3 id="dayH">No Data</h3>
-    <button type="button" id="nextButton" onclick="incrementDay()"><img src="http://www.templefma.org/WebartSpring2014/nextbutton.jpg" height="30" width="30" /></button>
+    <img src="appbar.arrow.right.png" onclick="incrementDay()" id="nextButton"  height="30" width="30" />
 </div>
 
 <div class="shows">
@@ -118,8 +118,10 @@
     </table>
 </div>
 
-<div class="listenLive">
-    <h3 id="liveH"><a href="http://tunein.com/radio/Aggie-Radio-895-s86622/" >Listen Live</a></h3>
+<div class="footer"><h3 id="footerH">Aggie Radio Programming Schedule</h3></div>
+
+<div class="listenLive" onclick="location.href='http://tunein.com/radio/Aggie-Radio-895-s86622/'">
+    <h3 id="liveH"><a id="liveA" href="http://tunein.com/radio/Aggie-Radio-895-s86622/" >Listen Live</a></h3>
 </div>
 
 <script src="schedScript.js"></script>
