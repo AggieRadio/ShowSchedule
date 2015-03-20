@@ -32,10 +32,11 @@ div.shows{
     width: 100px;
     height: 50px;
 }
-.hasData{
+.hasData, .hasLocation{
     width: 612px;
+    border-radius: 7px;
 }
-td.showData:hover{
+.hasLocation:hover{
     background-color: blue;
 }
 table{
@@ -73,4 +74,6 @@ div.listenLive{
     height: 442px;
     background-color: #120650;
 }
-
+div.listenLive:hover{
+    background-color: blue;
+}

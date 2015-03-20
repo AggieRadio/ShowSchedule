@@ -70,11 +70,11 @@ function reload(){
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "Aggie Morning Word";
             am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
-            am800.setAttribute("class", "hasData");
+            am800.setAttribute("class", "hasLocation");
             am900.setAttribute("rowspan", "2");
             am900.innerHTML = "Monday Morning Musings";
             am900.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/monday-musings/'");
-            am900.setAttribute("class", "hasData");
+            am900.setAttribute("class", "hasLocation");
             am1000.setAttribute("rowspan", "6");
             am1000.innerHTML = "";
             pm100.setAttribute("rowspan", "2");
@@ -102,7 +102,7 @@ function reload(){
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "Aggie Morning Word";
             am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
-            am800.setAttribute("class", "hasData");
+            am800.setAttribute("class", "hasLocation");
             am900.setAttribute("rowspan", "6");
             am900.innerHTML = "";
             pm1200.setAttribute("rowspan", "2");
@@ -119,7 +119,7 @@ function reload(){
             pm400.setAttribute("rowspan", "4");
             pm400.innerHTML = "The Non-Traditional Show";
             pm400.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/the-non-traditional/'");
-            pm400.setAttribute("class", "hasData");
+            pm400.setAttribute("class", "hasLocation");
             pm600.setAttribute("rowspan", "2");
             pm600.innerHTML = "Adventures of M&L";
             pm600.setAttribute("class", "hasData");
@@ -135,7 +135,7 @@ function reload(){
             am800.setAttribute("rowspan", "6");
             am800.innerHTML = "Aggie Morning Word";
             am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
-            am800.setAttribute("class", "hasData");
+            am800.setAttribute("class", "hasLocation");
             am1100.setAttribute("rowspan", "4");
             am1100.innerHTML = "Live From Common Hour";
             am1100.setAttribute("class", "hasData");
@@ -165,7 +165,7 @@ function reload(){
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "Aggie Morning Word";
             am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/homepage/aggie_morning_word/'");
-            am800.setAttribute("class", "hasData");
+            am800.setAttribute("class", "hasLocation");
             am900.setAttribute("rowspan", "4");
             am1100.setAttribute("rowspan", "2");
             am1100.innerHTML = "Kaden D. & Dylan M.";
@@ -180,7 +180,7 @@ function reload(){
             pm400.setAttribute("rowspan", "2");
             pm400.innerHTML = "Aggies Going Green";
             pm400.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/aggies-going-green/");
-            pm400.setAttribute("class", "hasData");
+            pm400.setAttribute("class", "hasLocation");
             pm500.innerHTML = "Tune In";
             pm500.setAttribute("class", "hasData");
             pm530.setAttribute("rowspan", "3");
@@ -195,21 +195,21 @@ function reload(){
             am800.setAttribute("rowspan", "2");
             am800.innerHTML = "AMW or Aggventure, Idfk";
             am800.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/aggventure-aggietalks/'");
-            am800.setAttribute("class", "hasData");
+            am800.setAttribute("class", "hasLocation");
             am900.innerHTML = "Transient Cafe";
             am900.setAttribute("class", "hasData");
             am930.innerHTML = "Life in the Rainbow";
             am930.setAttribute("class", "hasData");
             am1000.setAttribute("rowspan", "2");
             am1000.innerHTML = "Cheers to the Freaking Weekend";
-            am1000.setAttribute("class", "hasData");
+            am1000.setAttribute("class", "hasLocation");
             am1000.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/cheers-to-the-freakin-weekend/");
             am1100.setAttribute("rowspan", "2");
             am1100.innerHTML = "Frid-A Show";
             am1100.setAttribute("class", "hasData");
             pm1200.setAttribute("rowspan", "2");
             pm1200.innerHTML = "Popcorn Culture";
-            pm1200.setAttribute("class", "hasData");
+            pm1200.setAttribute("class", "hasLocation");
             pm1200.setAttribute("onclick", "location.href='http://www.usu.edu/radio/index.php/popcorn-culture/");
             pm100.setAttribute("rowspan", "2");
             pm100.innerHTML = "Ian Pougher";
@@ -248,7 +248,7 @@ function reload(){
             pm400.setAttribute("rowspan", "2");
             pm400.innerHTML = "Nerd Fighter Radio";
             pm400.setAttribute("onlcick", "location.href='http://www.usu.edu/radio/index.php/category/shows/aggietalks/nerd-fighter/");
-            pm400.setAttribute("class", "hasData");
+            pm400.setAttribute("class", "hasLocation");
             pm500.setAttribute("rowspan", "10");
             break;
 
